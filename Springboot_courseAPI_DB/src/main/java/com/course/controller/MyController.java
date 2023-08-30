@@ -13,7 +13,7 @@ public class MyController {
 	@Autowired  
 	private CourseService courseServ;
 	
-	// Checking application running or not
+	// Checking application running or not running
 	@GetMapping("/")	//http://localhost:8083/home
 	public String home() {
 		return "Welcome to courses application";
